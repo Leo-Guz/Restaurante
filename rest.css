@@ -1,0 +1,264 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    background: url('img/madera.jpg');
+    background-attachment: fixed;
+    font-family: 'Tilt Prism', cursive;
+}
+
+/*--------------------HEADER--------------------*/
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+
+h1 {
+    width: 100%;
+    font-size: 80px;
+    margin: 0px;
+}
+
+h2 {
+    width: 100%;
+    font-size: 30px;
+    margin: 0px;
+    position: relative;
+    top: -15px;
+}
+
+.linea {
+    width: 50%;
+    height: 5px;
+    background-color: black;
+}
+
+nav {
+    width: 60%;
+    background-color: rgba(255, 255, 255, 0.15);
+    margin: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.enlace-nav {
+    background: none;
+    border: 0px;
+    color: black;
+    font-family: 'Dongle', sans-serif;
+    font-size: x-large;
+    text-decoration: none;
+}
+
+.enlace-nav:hover {
+    cursor: pointer;
+    color: rgb(200, 200, 200);
+}
+
+/*--------------------BODY-INICIO--------------------*/
+
+.inicio {
+    visibility: visible;
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.cuadro-inicio {
+    display: flex;
+    flex-wrap: wrap;
+    width: 30%;
+    height: 300px;
+    border: 5px solid rgb(65, 42, 14);
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+}
+
+.cuadro-inicio p {
+    background-color: rgba(255, 255, 255, 0.3);
+    margin: auto;
+    width: 100%;
+    font-family: 'DynaPuff', cursive;
+    font-size: 25px;
+    color: rgb(230, 199, 0);
+    text-shadow: 2px 2px 4px red;
+}
+
+.btn-inicio {
+    background-color: rgba(255, 255, 255, 0.3);
+    width: 100%;
+    margin: auto;
+    font-size: x-large;
+    font-family: 'Dongle', sans-serif;
+    color: red;
+    text-shadow: 2px 2px 4px yellow;
+}
+
+.btn-inicio:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 0, 0.5);
+}
+
+.promociones {
+    background: url('img/buffet.jpg');
+    background-size: cover;
+}
+
+.interior {
+    background: url('img/interior.jpg');
+    background-size: cover;
+}
+
+.platillos {
+    background: url('img/platillos.jpg');
+    background-size: cover;
+}
+
+/*--------------------BODY-MENU--------------------*/
+
+.menu {
+    visibility: collapse;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.cuadro-menu {
+    display: flex;
+    width: 30%;
+    height: 300px;
+    margin-bottom: 30px;
+    background-color: beige;
+    border: 5px solid rgb(65, 42, 14);
+    border-radius: 10px;
+    text-align: center;
+    font-family: 'DynaPuff', cursive;
+    font-size: xx-large;
+    justify-content: center;
+}
+
+.cuadro-menu p {
+    margin: auto;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.cuadro-menu:hover {
+    cursor: pointer;
+}
+
+.desayunos {
+    background: url(img/desayuno.jpg);
+    background-size: cover;
+}
+
+.comidas {
+    background: url(img/comida.jpg);
+    background-size: cover;
+}
+
+.cenas {
+    background: url(img/cena.jpg);
+    background-size: cover;
+}
+
+.entradas {
+    background: url(img/entrada.jpg);
+    background-size: cover;
+}
+
+.bebidas {
+    background: url(img/bebida.jpg);
+    background-size: cover;
+}
+
+.postres {
+    background: url(img/postre.jpg);
+    background-size: cover;
+}
+
+/*--------------------BODY-SUCURSALES--------------------*/
+
+.sucursales {
+    visibility: collapse;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.cuadro-sucursales {
+    display: flex;
+    width: 30%;
+    height: 100px;
+    margin-bottom: 30px;
+    background-color: rgb(203, 203, 76);
+    border: 5px solid rgb(65, 42, 14);
+    border-radius: 10px;
+    text-align: center;
+    font-family: 'DynaPuff', cursive;
+    font-size: xx-large;
+    justify-content: center;
+}
+
+.cuadro-sucursales:hover {
+    cursor: pointer;
+    background-color:rgb(212, 212, 168);
+}
+
+.cuadro-sucursales p {
+    margin: auto;
+}
+
+/*--------------------BODY-SUCURSALES--------------------*/
+
+.contacto {
+    visibility: collapse;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+}
+
+.cuadro-contacto {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    font-family: 'DynaPuff', cursive;
+    font-size: large;
+    margin: 10px 0px;
+}
+
+.cuadro-contacto p {
+    margin-left: 20px;
+}
+
+/*--------------------FOOTER--------------------*/
+
+footer {
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 100%;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+span {
+    width: 70%;
+    padding: 10px;
+}

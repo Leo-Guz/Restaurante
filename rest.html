@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dongle:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gabriela&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="rest.css">
+    <script src="rest.js"></script>
+    <title>Restaurante</title>
+</head>
+<body>
+    <header>
+        <h1>Los Platillos</h1>
+        <h2>restaurante</h2>
+        <div class="linea"></div>
+        <nav>
+            <button class="enlace-nav" onclick="mostrarInicio()">INICIO</button>
+            <button class="enlace-nav" onclick="mostrarMenu()">MENU</button>
+            <button class="enlace-nav" onclick="mostrarSucursales()">SUCURSALES</button>
+            <button class="enlace-nav" onclick="mostrarContacto()">CONTACTO</button>
+        </nav>
+    </header>
+    <!----------------------------------------INICIO---------------------------------------->
+    <section class="inicio" id="inicio">
+        <div class="cuadro-inicio promociones">
+            <p>ROMPE LA DIETA CON EL DELICIOSO VIERNES DE BUFFET</p>
+            <a class="btn-inicio" id="reserva" onclick="mostrarContacto()">RESERVA PARA PROBARLO</a>
+        </div>
+        <div class="cuadro-inicio interior">
+            <p>CONTAMOS CON MAS DE 100 SUCURSALES EN LA REPUBLICA</p>
+            <a class="btn-inicio" id="ubica" onclick="mostrarSucursales()">UBICA LA MAS CERCANA</a>
+        </div>
+        <div class="cuadro-inicio platillos">
+            <p>TENEMOS UNA GRAN VARIEDAD DE PLATILLOS A ESCOGER</p>
+            <a class="btn-inicio" id="escoge" onclick="mostrarMenu()">VISITA EL MENU</a>
+        </div>
+    </section>
+    <!----------------------------------------MENU---------------------------------------->
+    <section class="menu" id="menu">
+        <div class="cuadro-menu desayunos">
+            <p>Desayunos</p>
+        </div>
+        <div class="cuadro-menu comidas">
+            <p>Comidas</p>
+        </div>
+        <div class="cuadro-menu cenas">
+            <p>Cenas</p>
+        </div>
+        <div class="cuadro-menu entradas">
+            <p>Entradas</p>
+        </div>
+        <div class="cuadro-menu bebidas">
+            <p>Bebidas</p>
+        </div>
+        <div class="cuadro-menu postres">
+            <p>Postres</p>
+        </div>
+    </section>
+    <!----------------------------------------SUCURSALES---------------------------------------->
+    <section class="sucursales" id="sucursales">
+        <div class="cuadro-sucursales cdmx">
+            <p>Ciudad de México</p>
+        </div>
+        <div class="cuadro-sucursales guadalajara">
+            <p>Guadalajara</p>
+        </div>
+        <div class="cuadro-sucursales monterrrey">
+            <p>Monterrey</p>
+        </div>
+        <div class="cuadro-sucursales cancun">
+            <p>Cancún</p>
+        </div>
+        <div class="cuadro-sucursales morelos">
+            <p>Morelos</p>
+        </div>
+        <div class="cuadro-sucursales sanluis">
+            <p>San Luis Potosi</p>
+        </div>
+    </section>
+    <!----------------------------------------CONTACTO---------------------------------------->
+    <section class="contacto" id="contacto">
+        <div class="cuadro-contacto num">
+            <img src="img/tel.png" alt="">
+            <p class="numero">800-123-1234</p>
+        </div>
+       <div class="cuadro-contacto email">
+            <img src="img/email.png" alt="">
+            <p class="email">contacto@losplatillos.com</p>
+       </div>
+       <div class="cuadro-contacto insta">
+            <img src="img/insta.png" alt="">
+            <p class="instagram">#losplatillos</p>
+       </div>
+       <div class="cuadro-contacto face">
+            <img src="img/face.png" alt="">
+            <p class="face">Los Platillos</p>
+       </div>
+       <div class="cuadro-contacto twit">
+            <img src="img/twit.png" alt="">
+            <p class="twiter">losPlatillos</p>
+       </div>
+    </section>
+    <footer id="pie">
+        <span>
+            Este sitio fue hecho por Leonardo Guzmán (Desarrollador web) para portafolio de trabajos.
+            No representa a algún restaurante en específico. Las imagenes fueron descargadas de unsplash,
+            las cuales pertenecen a Ulysse Pointcheval, Nick Karvounis, Ali Inay, Eiliv Aceron, José Ignacio Pompé,
+            Sara Cervera, Herson Rodriguez, Mink Mingle, Brooke Lark. </span>
+    </footer>
+</body>
+</html>
